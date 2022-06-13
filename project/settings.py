@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     # external apps
     "rest_framework",
     # internal apps
-    "api",
+    "api.apps.ApiConfig",
+    "frontend.apps.FrontendConfig",
 ]
 
 MIDDLEWARE = [
